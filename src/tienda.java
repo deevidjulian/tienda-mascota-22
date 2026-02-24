@@ -17,8 +17,13 @@ public tienda(String nombre,String especie,int edad,double peso)    {
 
 }
 public  void vacunar(){
-    if(vacuando){
-        vacuando = true ;
+    boolean vacunando = false;
+    if(¡vacuando){
+        vacuando = true;
+        System.out.print("la mascota esta vacunada.");
+    }else{
+        System.out.print(" la mascota ya estaba vacunada");
+
 
     }
 
